@@ -132,6 +132,12 @@ with gr.Blocks(title="Structura") as demo:
        - 區塊列表(.txt)
     4. 系統5分鐘後自動清理舊檔案
     5. 按藍色箭頭可下載
+
+    **只重寫前端，包含原版最簡單的功能**
+
+    **Fork from:**
+    - main: [RavinMaddHatter/Structura](https://github.com/RavinMaddHatter/Structura)
+    - Pale forest: [Rayth/Structura](https://github.com/Rayth/Structura)
     """)
     
     with gr.Row():
@@ -161,5 +167,8 @@ with gr.Blocks(title="Structura") as demo:
         outputs=[output_mcpack, output_blocklist]
     )
 
-if __name__ == "__main__":
+def main_process():
     demo.launch()
+
+if __name__ == "__main__":
+    main_process()
